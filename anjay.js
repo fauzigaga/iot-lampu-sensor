@@ -6,7 +6,6 @@ function getEspLed(){
     }).then(response => response.text()).then(result => {
         if(result == "ON"){
             ledEsp.style.backgroundColor = "yellow";
-            lampuOn.src="./assets/lampuOn.jpg"
         }else {
             ledEsp.style.backgroundColor = "white";
         }
