@@ -1,4 +1,4 @@
-const endpoint = "http://192.168.0.108";
+const endpoint = "https://192.168.0.108";
 
 async function getEspLed() {
     try {
